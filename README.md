@@ -5,12 +5,14 @@ It creates an instance, waits until it’s running, and prints the public IP.
 
 ## Usage
 1. Configure AWS CLI with your credentials.
-2. Update the variables in `launch-ec2.sh`:
+2. write this in cli: nano launch-ec2.sh
+3. copy the script
+4. Update the variables in `launch-ec2.sh`:
    - `AMI_ID`
    - `INSTANCE_TYPE`
    - `KEY_NAME`
    - `SEC_GROUP`
-3. Run the script:
+5. Run the script:
 
 ```bash
 chmod +x launch-ec2.sh
