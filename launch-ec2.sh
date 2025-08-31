@@ -1,9 +1,9 @@
 #!/bin/bash
 
-AMI_ID="ami-0a0b0b06dd1636865"   # replace with your AMI ID
+AMI_ID="ami-xxxx"   # replace with your AMI ID
 INSTANCE_TYPE="t3.micro"
-KEY_NAME="my-key"                # replace with your actual key pair name
-SEC_GROUP_ID="sg-071a3da57d75b29a8"  # replace with your security group ID
+KEY_NAME="your-key"                # replace with your actual key pair name
+SEC_GROUP_ID="sg-xxxx"  # replace with your security group ID
 
 echo "Launching EC2 instance..."
 INSTANCE_ID=$(aws ec2 run-instances \
